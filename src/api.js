@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://tasknest-backend-f676.onrender.com", //backend URL(render)
+  baseURL: "https://tasknest-backend-f676.onrender.com/api", //backend URL(render)
 });
 
 // Attach JWT token automatically
